@@ -1,4 +1,4 @@
--- Active: 1678223982687@@127.0.0.1@3306
+-- Active: 1682511537450@@127.0.0.1@3306
 
 CREATE TABLE users (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -59,6 +59,8 @@ VALUES
     ('u003', 'p002', 1),
     ('u001', 'p003', 1),
     ('u003', 'p003', 0);
+
+SELECT * FROM users;
 
 UPDATE playlists
 SET likes = 2
